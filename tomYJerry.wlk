@@ -20,13 +20,15 @@ object tom {
 //Parte 2
 
     method cazar(metro) {
-      if (energiaSuficiente() >= metro / 2) {
+      if (self.energiaSuficiente() >= metro / 2) {
         self.correr(metro)
         self.comer(raton)
       }  
+    }
+
     
     method energiaSuficiente() {
-      energia >= 1
+      return energia >= 1
     }
 
 }
@@ -67,6 +69,10 @@ object perez {
     }
 
     method peso() = 20
+
+    method perderPeso() {
+        return peso() = peso
+    }
 
     method edad() {
         return edad 
