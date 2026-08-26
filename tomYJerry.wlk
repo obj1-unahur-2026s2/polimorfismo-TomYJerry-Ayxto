@@ -15,6 +15,19 @@ object tom {
        return 5 + energia / 10
     }
 
+    method estaFeliz() = estafeliz
+
+//Parte 2
+
+    method cazar(metro) {
+      if (energiaSuficiente() >= metro / 2) {
+        self.correr(metro)
+        self.comer(raton)
+      }  
+    
+    method energiaSuficiente() {
+      energia >= 1
+    }
 
 }
 
@@ -32,14 +45,31 @@ object jerry {
     method edad() {
         return edad 
     }
+
+//Parte 2
+
 }
 
 object nibbles {
     method peso() {
         return 35
     }
+
+//Parte 2
+
 }
 
 object perez {
+     var edad = 5
+
+    method cumplirAnios(){
+        edad = edad + 1
+    }
+
+    method peso() = 20
+
+    method edad() {
+        return edad 
+    }
 
 }
