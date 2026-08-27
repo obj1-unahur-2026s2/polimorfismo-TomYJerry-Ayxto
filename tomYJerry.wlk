@@ -45,8 +45,6 @@ object jerry {
         return edad 
     }
 
-//Parte 2
-
 }
 
 object nibbles {
@@ -54,7 +52,6 @@ object nibbles {
         return 35
     }
 
-//Parte 2
 
 }
 
